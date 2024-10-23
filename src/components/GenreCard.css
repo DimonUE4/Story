@@ -1,0 +1,14 @@
+.genre-card{
+  border: 2px rgb(0, 179, 255) solid;
+  background-color: rgb(28, 28, 28);
+  color: rgb(174, 174, 174);
+  margin-top: 2%;
+  border-radius: 2%;
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+ 
+}
+.descript{
+  color: rgb(0, 118, 187);
+}

@@ -1,0 +1,6 @@
+.genre-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Два столбца */
+  gap: 16px; /* Расстояние между элементами */
+  padding: 16px; /* Отступы вокруг сетки */
+}

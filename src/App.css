@@ -1,0 +1,66 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Темный фон */
+  color: #ffffff; /* Светло-синий текст */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center; /* Центрирование текста */
+}
+
+.app-title {
+  margin-bottom: 20px;
+}
+
+.genre-nav {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение жанров */
+  gap: 10px; /* Пробел между жанрами */
+}
+
+.genre-link {
+  background-color: #4A90E2; /* Цвет кнопок жанров */
+  color: white; /* Цвет текста кнопок */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+  transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.genre-link:hover {
+  background-color: #0080ff; /* Цвет кнопки при наведении */
+}
+
+.genre-page {
+  padding: 20px;
+  background-color: #1E1E1E; /* Темный фон для контейнера жанра */
+  border-radius: 8px; /* Закругление углов */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Тень */
+}
+
+.genre-title {
+  margin-bottom: 20px;
+}
+
+.story-buttons {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение кнопок */
+  gap: 10px; /* Пробел между кнопками */
+}
+.ButtonCard{
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение кнопок */
+  margin-top: 2%;
+
+}
+.selectStory{
+  margin-top: 4%;
+}
